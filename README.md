@@ -1,2 +1,2 @@
-# sappo-ai-moral
-Sistem AI Berbasis Akhlak dan Nurani oleh Faizal Muin
+# Sappo AI Moral
+Proyek AI berbasis akhlak dan nurani yang dibangun oleh Faizal Muin.
