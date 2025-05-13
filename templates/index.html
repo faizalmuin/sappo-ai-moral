@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sappo AI Moral</title>
+</head>
+<body>
+    <h1>Selamat datang di Sappo AI Moral</h1>
+    <form method="post">
+        <input type="text" name="user_input" placeholder="Tanyakan sesuatu..." required>
+        <input type="submit" value="Kirim">
+    </form>
+    {% if response %}
+        <h3>Jawaban Sappo:</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
