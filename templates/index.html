@@ -1,17 +1,19 @@
-<!doctype html>
+Head
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Sappo AI Moral</title>
+    <title>Sappo AI</title>
 </head>
 <body>
-    <h1>Selamat datang di Sappo AI Moral</h1>
+    <h1>Halo Faizal! Ini Sappo</h1>
     <form method="post">
-        <input type="text" name="user_input" placeholder="Tanyakan sesuatu..." required>
+        <input type="text" name="user_input" placeholder="Ketik sesuatu...">
         <input type="submit" value="Kirim">
     </form>
     {% if response %}
-        <h3>Jawaban Sappo:</h3>
+        <h2>Jawaban Sappo:</h2>
         <p>{{ response }}</p>
     {% endif %}
 </body>
 </html>
+
