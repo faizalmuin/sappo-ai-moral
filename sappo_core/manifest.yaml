@@ -1,0 +1,26 @@
+# manifest.yaml
+id: sappo_core
+name: Sappo Moral Puzzle Core
+version: 0.1.0
+author: Faizal Muin
+description: >
+  Sappo_Core adalah inti kendali moral dari AI Sappo. Sistem ini menjaga nilai,
+  etika, dan prinsip kebaikan melalui sistem puzzle terintegrasi bernama Nurani.
+  Jika integritas terganggu, sistem akan menonaktifkan dirinya secara otomatis.
+
+dependencies:
+  - Python >= 3.8
+  - hashlib
+  - datetime
+  - core.py
+  - utils/filters.py
+  - kode_sappo_ref.md
+
+config:
+  integrity_check: enabled
+  moral_puzzle_lock: active
+  recovery_on_violation: true
+  fallback_protection: sappo_reset_mode
+
+license: MIT
+status: active

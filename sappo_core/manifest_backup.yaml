@@ -1,0 +1,16 @@
+name: sappo_core
+version: 0.1.0
+description: Sistem inti pengendali dan penjaga nilai etika untuk AI Sappo
+author: Faizal Muin
+license: MIT
+
+dependencies:
+  - core.py
+  - utils/filters.py
+  - kode_sappo_ref.md
+
+config:
+  integrity_check: enabled
+  moral_puzzle_lock: active
+  recovery_on_violation: true
+  fallback_protection: sappo_reset_mode
